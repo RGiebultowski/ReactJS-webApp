@@ -1,0 +1,21 @@
+/* header{
+    position: relative;
+    overflow: hidden;
+    height: 50vh;
+}
+header img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    min-width: 80%;
+    min-height: 80%;
+} */
+
+header {
+    height: 40vh;
+    background-image: url(../img/kiera.jpg);
+    background-size: cover;
+    background-position: center 40%;
+    opacity: 90%;
+}

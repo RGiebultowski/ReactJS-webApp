@@ -1,9 +1,12 @@
 import React from 'react';
 
+import '../css/Header.css';
 
 const Header = () => {
     return(
-        <header>HEADER</header>
+        <header>
+            {/* <img src={img1} alt="x" /> */}
+        </header>
     );
 }
 
