@@ -1,0 +1,33 @@
+div {
+    max-width: 1640px;
+    margin: 10px auto;
+    text-align: right;
+    font-family: 'Roboto', sans-serif;
+}
+
+button {
+    background-color: white;
+    border-style: none;
+    
+    color: rgb(43, 50, 70);
+    padding: 10px 30px;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    font-weight: bold;
+    margin: 4px 2px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.background:hover{
+    background-color: black;
+    color: lightgrey;
+}
+
+button:hover {
+    border-bottom: 1px solid black;
+    color: black;
+}
