@@ -1,17 +1,21 @@
 import React from 'react';
+import { BrowserRouter as Router } from 'react-router-dom';
 
 import '../css/App.css';
 
 import Nav from './Nav';
 import Header from './Header';
+import Page from './Page';
 
 const App = () => {
   return (
-    <div className="App">
-      <Nav />
-      <Header />
-      Welcome in the login screen
-    </div>
+    <Router>
+      <div className="App">
+        <Nav />
+        <Header />
+        <Page />
+      </div>
+    </Router>
   );
 }
 
