@@ -1,8 +1,12 @@
 nav {
-    max-width: 1640px;
+    /* max-width: 1640px; */
     margin: 10px auto;
     text-align: right;
     font-family: 'Roboto', sans-serif;
+    z-index: 10000;
+    position: sticky;
+    top: 0;
+    background-color: white;
 }
 
 ul{
@@ -13,8 +17,9 @@ nav a {
     text-decoration: none;
     text-align: center;
     text-transform: uppercase;
-    font-size: 12px;
-    font-weight: bold;
+    font-size: 15px;
+    letter-spacing: 1px;
+    font-weight: 100;
     color: rgb(43, 50, 70);
     margin: 4px 20px;
     cursor: pointer;
@@ -23,6 +28,7 @@ nav a {
 li{
     display: inline-block;
     padding: 10px 30px;
+    margin-right: 10px;
     transition: 0.2s;
 }
 

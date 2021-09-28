@@ -22,12 +22,12 @@ const navList = [
         path: "/about"
     },
     {
-        name: "Sign in",
-        path: "/signin"
-    },
-    {
         name: "Sign up",
         path: "/signup"
+    },
+    {
+        name: "Sign in",
+        path: "/signin"
     },
 ]
 

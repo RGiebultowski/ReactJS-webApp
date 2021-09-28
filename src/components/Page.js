@@ -8,6 +8,8 @@ import AboutUsPage from '../pages/AboutUsPage';
 import SignInPage from '../pages/SignInPage';
 import SignUpPage from '../pages/SignUpPage';
 
+import '../css/page.css';
+
 
 const Page = () => {
     return(
@@ -17,8 +19,8 @@ const Page = () => {
                 <Route path="/wheels" exact component={WheelsPage} />
                 <Route path="/gallery" exact component={GalleryPage} />
                 <Route path="/about" exact component={AboutUsPage} />
-                <Route path="/signin" exact component={SignInPage} />
                 <Route path="/signup" exact component={SignUpPage} />
+                <Route path="/signin" exact component={SignInPage} />
             </Switch>
         </>
     );
